@@ -9,4 +9,8 @@ app.get("/", (req, res) => {
   res.send("Hello from Ferry");
 });
 
+app.get("/hello", (req, res) => {
+  res.send("Hello from Hello");
+});
+
 app.listen(PORT, () => console.log(`server listening on port: ${PORT}`));
