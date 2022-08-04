@@ -14,6 +14,7 @@ APP_PORT=3010
 DB_CONNECTION_STRING=mysql://user:password@localhost:3306/db_name
 INITIAL_ADMIN_PASSWORD=admin123
 BCRYPT_SALT=8
+JWT_SECRET_KEY=somesecret
 ```
 
 ## Install
@@ -49,4 +50,4 @@ NodeJS: v16.13.1
 
 - Member 1
 - Member 2
-- Member 
+- Member 3
